@@ -94,3 +94,12 @@ footer .small{max-width:900px}
   footer{margin-top:60px}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+.langs{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:15px;font-weight:700;margin-bottom:16px}
+.langs span{color:var(--sub);font-weight:600}
+:lang(zh-Hant) h1,:lang(ko) h1{letter-spacing:-.02em;line-height:1.14}
+:lang(zh-Hant) h2,:lang(ko) h2{letter-spacing:-.01em;line-height:1.2}
+:lang(tr) h1{line-height:1.06}
+:lang(ko){word-break:keep-all}
+:lang(zh-Hant),:lang(ko){line-height:1.55}
+:lang(tr) .day.today{font-size:9px}
+@media (max-width:860px){:lang(tr) .day.today{font-size:7.5px}}
